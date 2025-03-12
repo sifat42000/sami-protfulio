@@ -1,14 +1,16 @@
 import SingleContactSocial from "./SingleContactSocial";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
+
 import { FaInstagram } from "react-icons/fa";
+import { MdOutlineFacebook } from "react-icons/md";
 
 const ContactSocial = () => {
   return (
     <div className="flex gap-4">
-      <SingleContactSocial link="#" Icon={FaLinkedinIn} />
-      <SingleContactSocial link="#" Icon={FiGithub} />
-      <SingleContactSocial link="#" Icon={FaInstagram} />
+      
+      <SingleContactSocial link="https://www.instagram.com/shahriar_sami__/" Icon={FaInstagram} />
+      <SingleContactSocial link="https://www.facebook.com/profile.php?id=100024305117394" Icon={MdOutlineFacebook} />
+     
+
     </div>
   );
 };
